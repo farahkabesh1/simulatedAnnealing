@@ -193,7 +193,7 @@ void simulatedAnnealing(vector<vector<int> >& savedpos, vector<vector<int> >& co
             }
         }
         
-        currentTemp *= 0.75;                                       //reduce temp - 0.95 is cooling rate
+        currentTemp *= 0.95;                                       //reduce temp - 0.95 is cooling rate
         // TWL.push_back(currentWirelength);
         // temperatures.push_back(currentTemp);
         // iter.push_back(iteration);
